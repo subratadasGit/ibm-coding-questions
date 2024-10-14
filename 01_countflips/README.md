@@ -71,40 +71,32 @@ Make sure you have the following installed:
 **Input:**
 Enter the string: 010101
 
-makefile
-Copy code
 
 **Output:**
 Flip counts: 3
 
-markdown
-Copy code
+
 
 ### **Example 2:**
 **Input:**
 Enter the string: 11110000
 
-makefile
-Copy code
 
 **Output:**
 Flip counts: 2
 
-markdown
-Copy code
 
 ### **Example 3:**
 **Input:**
 Enter the string: 101001
 
-makefile
-Copy code
+
 
 **Output:**
 Flip counts: 3
 
 yaml
-Copy code
+
 
 ---
 
