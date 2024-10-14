@@ -13,6 +13,10 @@ This Java project counts the number of **flips** required in adjacent character 
   - [Usage](#usage)
   - [Example Input/Output](#example-inputoutput)
     - [**Example 1:**](#example-1)
+    - [**Example 2:**](#example-2)
+    - [**Example 3:**](#example-3)
+  - [Makefile](#makefile)
+    - [**Makefile Code:**](#makefile-code)
 
 ---
 
@@ -65,3 +69,56 @@ Make sure you have the following installed:
 
 ### **Example 1:**
 **Input:**
+Enter the string: 010101
+
+makefile
+Copy code
+
+**Output:**
+Flip counts: 3
+
+markdown
+Copy code
+
+### **Example 2:**
+**Input:**
+Enter the string: 11110000
+
+makefile
+Copy code
+
+**Output:**
+Flip counts: 2
+
+markdown
+Copy code
+
+### **Example 3:**
+**Input:**
+Enter the string: 101001
+
+makefile
+Copy code
+
+**Output:**
+Flip counts: 3
+
+yaml
+Copy code
+
+---
+
+## Makefile
+
+You can automate the compilation and execution of the program using the following **Makefile**.
+
+### **Makefile Code:**
+
+```makefile
+all: compile run
+
+compile:
+	javac CountFlips.java
+
+run:
+	java CountFlips
