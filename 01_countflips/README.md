@@ -83,7 +83,7 @@ Enter the string: 11110000
 
 
 **Output:**
-Flip counts: 2
+Flip counts: 0
 
 
 ### **Example 3:**
